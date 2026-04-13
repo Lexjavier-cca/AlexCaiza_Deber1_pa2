@@ -1,7 +1,8 @@
-package uce.edu.pa2.api.bodega;
+package uce.edu.pa2.api.citas;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
+import uce.edu.pa2.api.principal.NotificadorMail;
 
 @ApplicationScoped
 public class CitaService {

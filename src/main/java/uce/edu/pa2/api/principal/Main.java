@@ -1,9 +1,13 @@
-package uce.edu.pa2.api.bodega;
+package uce.edu.pa2.api.principal;
 
 import io.quarkus.runtime.Quarkus;
 import io.quarkus.runtime.QuarkusApplication;
 import io.quarkus.runtime.annotations.QuarkusMain;
 import jakarta.inject.Inject;
+import uce.edu.pa2.api.bodega.Pedido;
+import uce.edu.pa2.api.bodega.PedidoService;
+import uce.edu.pa2.api.citas.Cita;
+import uce.edu.pa2.api.citas.CitaService;
 
 @QuarkusMain
 public class Main {
